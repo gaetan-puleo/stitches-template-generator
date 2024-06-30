@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "css": "tailwindcss -i ./stitches.css .css -o ./output.css",
+    "css:watch": "npm run css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

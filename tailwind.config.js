@@ -1,4 +1,6 @@
 module.exports = {
+
+    content: ["./**/*.{html,js}"],
     prefix: '',
     important: false,
     separator: ':',
