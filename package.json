@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "js": "esbuild main.js --bundle --outfile=out.js",
+    "js": "esbuild main.js --bundle --outfile=bundle.js",
     "css": "tailwindcss -i ./stitches.css .css -o ./output.css",
     "css:watch": "npm run css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
